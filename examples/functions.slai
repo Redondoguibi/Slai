@@ -1,0 +1,8 @@
+? Função de uma linha
+
+func somar($a, $b) => a + b
+
+? Função em bloco
+func exemplo(a, b):
+    resultado = a + b
+    return resultado
