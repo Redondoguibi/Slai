@@ -1,0 +1,7 @@
+? Variáveis e tipos
+
+idade = 14
+nome, string = "Alex"
+
+sys.log(nome)
+sys.log(idade)
