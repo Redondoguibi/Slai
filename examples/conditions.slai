@@ -1,0 +1,7 @@
+? Condicional atual
+
+vida = 100
+
+if:
+    vida <= 0 => morrer()
+    el => continuar()
