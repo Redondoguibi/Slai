@@ -1,0 +1,8 @@
+? Classe
+
+cl Player:
+    .args($name):
+        this.name = name
+        this.health = 100
+
+    .damage(amount) => this.health -= amount
