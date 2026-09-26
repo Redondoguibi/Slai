@@ -1,0 +1,6 @@
+? Async atual
+
+func carregar():
+    .resposta = await fetch(url)
+    .dados = await resposta.json()
+    return dados
