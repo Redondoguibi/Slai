@@ -1,0 +1,3 @@
+? Hello World em Slai
+
+sys.log("Hello, Slai!")
