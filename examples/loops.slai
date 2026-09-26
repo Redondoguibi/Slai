@@ -1,0 +1,4 @@
+? Sintaxe de loop ainda em definição
+
+for i=0; <10:
+    sys.log(i)
