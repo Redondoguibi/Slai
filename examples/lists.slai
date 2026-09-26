@@ -1,0 +1,6 @@
+? Listas
+
+jogadores = [$Ana, $Lucas, $Pedro]
+jogadores.push("João")
+
+sys.log(jogadores$0)
