@@ -1,0 +1,9 @@
+? Objeto em bloco
+
+obj jogador:
+    nome: "Alex"
+    vida: 100
+    nivel: 5
+
+sys.log(jogador.nome)
+sys.log(jogador.vida)
