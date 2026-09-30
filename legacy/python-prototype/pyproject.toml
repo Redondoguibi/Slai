@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slai-lang"
+version = "0.1.0"
+description = "Direct x86-64 and PE32+ compiler for the Slai language"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+slai = "slai.__main__:main"
+
+[tool.setuptools]
+packages = ["slai"]

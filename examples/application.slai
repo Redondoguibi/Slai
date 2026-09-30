@@ -1,0 +1,39 @@
+? Aplicação completa, compilada diretamente para Windows x64.
+
+func somar($a, $b) => a + b
+
+func fatorial(n):
+    if:
+        n <= 1 => return 1
+        el => return n * fatorial(n - 1)
+
+cl Player:
+    .args($name):
+        this.name = name
+        this.health = 100
+
+    .damage(amount) => this.health -= amount
+
+player = Player("Alex")
+player.damage(25)
+sys.log(player.name)
+sys.log(player.health)
+sys.log(somar(20, 22))
+sys.log(fatorial(10))
+
+jogadores = [$Ana, $Lucas, $Pedro]
+jogadores.push("João")
+jogadores.push("Maria")
+for i=0; <jogadores.length:
+    sys.log(jogadores$i)
+
+obj partida:
+    pontos: 0
+    ativa: true
+
+for i=1; <=5:
+    partida.pontos += i
+
+if:
+    partida.pontos == 15 => sys.log("Partida concluída!")
+    el => sys.log("Resultado inesperado")

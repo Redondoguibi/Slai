@@ -60,6 +60,11 @@ Gerador PE da Slai
 
 ### Regra arquitetural
 
+O compilador e o runtime da Slai devem ser implementados em **Assembly x86-64**.
+Esta é uma decisão confirmada pelo autor. Python não é a linguagem de
+implementação da toolchain. Um assembler pode montar o próprio compilador;
+`slai build` deve continuar emitindo machine code e PE diretamente.
+
 A Slai **não utilizará LLVM em nenhum momento**.
 
 Também não utilizará como backend intermediário:

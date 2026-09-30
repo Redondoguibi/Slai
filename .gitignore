@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.exe
+*.egg-info/
+.venv/
+build/
+dist/
+bin/
+asm/*.bin
+tools/fasm/
+tools/fasmw*.zip
